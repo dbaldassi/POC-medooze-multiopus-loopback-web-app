@@ -87,7 +87,7 @@ const server = https.createServer (options, (req, res) => {
 			}
 		});
 	});
-}).listen (8000);
+}).listen (8888);
 
 const wsServer = new WebSocketServer ({
 	httpServer: server,
